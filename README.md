@@ -25,7 +25,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
   ...
 })
 export class AppModule { }
-
+```
 ## Consuming library
 
 Copy the code into your project:
