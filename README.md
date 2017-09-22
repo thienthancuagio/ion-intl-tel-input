@@ -33,6 +33,25 @@ import { ClickOutsideModule } from 'ng-click-outside';
 })
 export class AppModule { }
 ```
+Then import `IonIntlTelInputComponent` at `AppModule`.
+```typescript
+import { IonIntlTelInputComponent } from '.../ion-intl-tel-input';
+
+@NgModule({
+  declarations: [
+    ...
+    IonIntlTelInputComponent,
+    ...
+  ]
+  ...
+  exports:[
+    ...
+    IonIntlTelInputComponent,
+    ...
+  ]
+})
+export class AppModule { }
+```
 ## Consuming library
 
 Copy the code into your project:

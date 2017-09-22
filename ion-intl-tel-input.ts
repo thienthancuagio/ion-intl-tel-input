@@ -6,8 +6,8 @@ import $ from "jquery";
 
 @Component({
   selector: 'ion-intl-tel-input',
-  templateUrl: './ion-intl-tel-input.component.html',
-  styleUrls: ['./ion-intl-tel-input.component.css'],
+  templateUrl: './ion-intl-tel-input.html',
+  styleUrls: ['./ion-intl-tel-input.css'],
   providers: [CountryCode]
 })
 export class IonIntlTelInputComponent implements OnInit {
