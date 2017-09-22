@@ -41,14 +41,14 @@ Copy file intl-tel-input.css into theme folder and import file intl-tel-input.cs
 
 ```xml
 home-page {
-     @import './theme/intl-tel-input';
+     @import '../theme/intl-tel-input';
 }
 
 ```
 You can also import files app.scss
 
 ```xml
-    @import './theme/intl-tel-input';
+    @import '../theme/intl-tel-input';
 ```
  So, You neend
 
