@@ -76,7 +76,7 @@ Once library is imported, you can use components in your Ionic application:
 ```xml
 
 <h1>
-  {{phone_number}}
+  {{phoneNumber}}
 </h1>
 <ion-intl-tel-input [(value)]="phoneNumber"></ion-intl-tel-input>
 ```
